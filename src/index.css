@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, #1a1a1a, #000000);
+}
